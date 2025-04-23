@@ -3,8 +3,11 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Weather } from './Component/Weather'
-import { Route, Routes } from 'react-router'
+
 import { Pagenotfound } from './Component/Pagenotfound'
+import { Route, Routes } from 'react-router-dom'
+
+
 
 function App() {
   const [count, setCount] = useState(0)
